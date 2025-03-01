@@ -1,0 +1,1 @@
+python3 -m unittedst discover -s src
