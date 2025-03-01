@@ -9,6 +9,7 @@ class HTMLNode:
         raise NotImplementedError
 
     def props_to_html(self):
+        if self.props is None: return ""
         return reduce(lambda html_str, kv: html_str + f" {kv[0]}=\"{kv[1]}\"", self.props.items(), "")
 
     def __repr__(self):

@@ -2,7 +2,6 @@
 
 from src.htmlnode import HTMLNode
 
-
 class TestHTMLNode(unittest.TestCase):
     def test_repr(self):
         node = HTMLNode(tag="h1")
