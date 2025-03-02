@@ -32,7 +32,7 @@ def text_node_to_html_node(text_node: TextNode) -> HTMLNode:
             return LeafNode("b", text_node.text)
         case TextType.ITALIC:
             return LeafNode("i", text_node.text)
-        case TextType.CODE_TEXT:
+        case TextType.CODE:
             return LeafNode("code", text_node.text)
         case TextType.LINK:
             return LeafNode("a", text_node.url, dict({"href": f"{text_node.url}"}))
