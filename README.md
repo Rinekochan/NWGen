@@ -3,7 +3,7 @@
 - Why can't I just write markdown for the website?
 <hr></hr>
 
-**Fear not!!** NWGen is a static website generator from markdown, all you need to do is some .md files and then it will automatically generate html files for you!
+NWGen is a static website generator from markdown, all you need to do is some .md files and then it will automatically generate html files for you!
 
 ## How to run this project
 1. Clone this project
